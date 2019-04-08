@@ -34,15 +34,17 @@ class PrestashopBridge extends Module
 
     public function __construct()
     {
-        $this->name = 'prestashop_bridge';
+        $this->name = 'prestashopbridge';
         $this->tab = 'others';
         $this->version = '1.0.0';
         $this->author = 'Mighty';
         $this->need_instance = 0;
+        $this->bootstrap = true;
+        $this->dependencies = array();
 
         parent::__construct();
 
-        $this->displayName = $this->l('prestashop-bridge');
+        $this->displayName = $this->l('prestashop bridge');
         $this->description = $this->l('bridges the web creators pos with prestashop');
 
         $this->confirmUninstall = $this->l('Are you sure you want to uninstall your prestashop-bridge? This might break your installation...');

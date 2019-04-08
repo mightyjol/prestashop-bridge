@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
-	<name>prestashop-bridge</name>
-	<displayName><![CDATA[prestashop-bridge]]></displayName>
+	<name>prestashopbridge</name>
+	<displayName><![CDATA[prestashop bridge]]></displayName>
 	<version><![CDATA[1.0.0]]></version>
 	<description><![CDATA[bridges the web creators pos with prestashop]]></description>
 	<author><![CDATA[Mighty]]></author>
